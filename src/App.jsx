@@ -6,7 +6,7 @@ import RegisterPage from "./components/RegisterPage";
 import Dashboard from "./components/Dashboard";
 import { useState } from "react";
 import MyProfile from "./components/MyProfile";
-import StudyMaterial from "./components/StudyMaterial";
+import StudyMaterial from "./components/StudyMaterial.jsx";
 function App() {
   const [clicked, setClicked] = useState(true);
   const [name, setName] = useState("User");
